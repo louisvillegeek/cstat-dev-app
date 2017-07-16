@@ -14,6 +14,9 @@
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#4e8ef7">
 
+  <!-- cordova.js required for cordova apps -->
+  <script src="cordova.js"></script>
+
   <!-- un-comment this code to enable service worker
   <script>
     if ('serviceWorker' in navigator) {
@@ -23,7 +26,7 @@
     }
   </script>-->
 
-  <link href="build/main.css?ver=3.3.4-dev3" rel="stylesheet">
+  <link href="build/main.css" rel="stylesheet">
 
 </head>
 <body>
@@ -33,12 +36,12 @@
 
   <script src="https://maps.google.com/maps/api/js?key=AIzaSyBj34lRIRl51MKzc-xWe7ewTfh4uJ4rZN0&libraries=drawing"></script>
   <!-- The polyfills js is generated during the build process -->
-  <script src="build/polyfills.js?ver=3.3.4-dev3"></script>
+  <script src="build/polyfills.js"></script>
 
   <!-- The vendor js is generated during the build process
        and includes all files in the node_modules directory -->
-  <script src="build/vendor.js?ver=3.3.4-dev3"></script>
+  <script src="build/vendor.js"></script>
   <!-- The bundle js is generated during the build process -->
-  <script src="build/main.js?ver=3.3.4-dev3"></script>
+  <script src="build/main.js"></script>
 </body>
 </html>
